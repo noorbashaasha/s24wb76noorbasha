@@ -5,8 +5,8 @@ block content
   .container-fluid
     .row
       -
-      for ford in ford
+      for ford in fords
         .col-sm-2
-          h3= `name: ${ford.make}`
-          p= `price: ${ford.model}`
+          h3= `name: ${ford.name}`
+          p= `price: ${ford.price}`
           p= `year: ${ford.year}`
